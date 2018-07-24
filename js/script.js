@@ -43,12 +43,26 @@ $(document).ready(function() {
 			itemsDesktopSmall : [979,3]
 		});
 
-		// OwlCarousel N2
+        // OwlCarousel N2
 		$("#owl-demo-1").owlCarousel({
 			  navigation : false, // Show next and prev buttons
 			  slideSpeed : 300,
 			  paginationSpeed : 400,
-			  singleItem:true
+			  singleItem: true,
+		});
+        // OwlCarousel N3
+		$("#owl-demo-2").owlCarousel({
+		    navigation: false, // Show next and prev buttons
+		    slideSpeed: 300,
+		    paginationSpeed: 400,
+		    singleItem: true
+		});
+		// OwlCarousel N4
+		$("#owl-demo-3").owlCarousel({
+		    navigation: false, // Show next and prev buttons
+		    slideSpeed: 300,
+		    paginationSpeed: 400,
+		    singleItem: true
 		});
 
 		//SmothScroll

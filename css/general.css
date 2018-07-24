@@ -1,7 +1,5 @@
 /*
-Theme: Flatfy Theme
-Author: Andrea Galanti
-Bootstrap Version 
+Author: wpp
 Build: 1.0
 
 */
@@ -100,7 +98,22 @@ margin: auto;
   width: 100%;
   height: auto;
 }
-
+#owl-demo-2 .item{
+  margin: 3px;
+}
+#owl-demo-2 .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+#owl-demo-3 .item{
+	margin: 3px;
+  }
+#owl-demo-3 .item img{
+	display: block;
+	width: 100%;
+	height: auto;
+  }
 /*magnific */
 .mfp-bg {
 background: #000000 !important;
@@ -108,7 +121,7 @@ opacity: 0.95 !important;
 filter: alpha(opacity=95) !important;
 }
 
-.item .img-responsive {cursor:url(../img/cross.png),auto;}
+.item .img-responsive {cursor:url(../img/fangda.png),auto;}
 
 /* Preloader */
 #preloader {
@@ -174,18 +187,17 @@ width: 50px;
 }
 
 .box-icon {
+    
 	height: 150px;
 	width: 150px;
 	-moz-border-radius: 35px;
 	border-radius: 100%;
-	padding: 47px 10px;
 	background-color: #f0f1ec;
 	color: #034b81;
 	text-align: center;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
-	margin-right: 15px;
 }
 
 .box-icon:hover {
@@ -314,7 +326,7 @@ color: #ECEBEB;
 .banner {
 	padding: 100px 0;
 	color: #f8f8f8;
-	background: url(../img/intro/banner-bg.jpg) no-repeat center center;
+	background: url(../img/intro/banner-bg.png) no-repeat center center;
 	background-size: cover;
 }
 
@@ -1031,6 +1043,20 @@ color: #ECEBEB;
 .no-transition {
 	-webkit-transition: none !important;
 	transition: none !important;
+}
+
+/*jionus*/
+.jionus{
+    width:400px;
+    margin:0;
+    height:100%;
+
+}
+
+.fausers{
+    height: 160px;
+	margin-left:-20px;
+    width:160px;
 }
 
 /* Media Queries */
